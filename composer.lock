@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c215108a1f0ef9032da5b8811b94b900",
+    "content-hash": "743803f271757742be651a6865c484d1",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -1240,6 +1240,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-theme/portfolio-web",
+            "version": "2.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/portfolio-web/",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/portfolio-web.2.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/portfolio-web/"
         }
     ],
     "packages-dev": [],
