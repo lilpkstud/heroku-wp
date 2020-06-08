@@ -9,6 +9,11 @@
             "email": "me@xyu.io",
             "homepage": "http://xyu.io",
             "role": "Developer"
+        },
+        {
+            "name": "Paul Kwon",
+            "homepage": "https://github.com/lilpkstud",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -26,7 +31,9 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
         "predis/predis": "~1",
-        "wp-cli/wp-cli": "^2"
+        "wp-cli/wp-cli": "^2",
+
+        "wpackagist-theme/portfolio-web":"*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
