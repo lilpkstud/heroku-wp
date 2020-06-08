@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "743803f271757742be651a6865c484d1",
+    "content-hash": "712d72c46ecf24f8ad0a142eb211fc95",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -1160,6 +1160,26 @@
                 "wordpress"
             ],
             "time": "2020-02-18T08:15:37+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/acme-demo-setup",
+            "version": "2.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acme-demo-setup/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acme-demo-setup.zip?timestamp=1574697878",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acme-demo-setup/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
