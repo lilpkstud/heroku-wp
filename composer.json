@@ -9,6 +9,11 @@
             "email": "me@xyu.io",
             "homepage": "http://xyu.io",
             "role": "Developer"
+        },
+        {
+            "name": "Paul Kwon",
+            "homepage": "https://github.com/lilpkstud",
+            "role": "Developer"
         }
     ],
     "require": {
